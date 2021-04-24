@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<script src="./JS/chat.js"></script> 
+<link rel="stylesheet" href="./CSS/chat.css" type="text/css">
+
+</head>
+<body>
+   <button class="open-button" onclick="openForm()">Chat with us! <i class='fas fa-comment' style='font-size:48px;color:green'><img src="./images/liveChat.png" width="50px" name="Search"></i></button>
+   
+   <div align="center" class="chat-popup" id="myForm">
+      <div align="left" class="chat-header">Chat with Us</div>
+    
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&#9747</span>
+      <div class="chat-container"></div>
+
+      
+  
+      <form action="" class="form-container">
+
+        
+      
+        <label for="msg"><b>Message</b></label>
+      
+        
+        <p id="userchat">
+      <textarea placeholder="Type message.." name="msg" required>
+       
+      </textarea>
+    </p>
+
+      <div id="#chat-response-temp">
+        
+      </div>
+
+      
+      <button type="button" class="btn" style="margin-top:20px;" onclick="agentRespond(this)">Send</button><br>    
+      
+    </form>
+   </div>
+
+
+
+</body>
+</html>
+
+
+

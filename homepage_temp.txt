@@ -1,0 +1,330 @@
+
+<article >
+    <table  width="60%" border="0" align="right">
+        <tr height = "280" >
+
+
+
+
+            <td>
+                <a href=""><img src="images/product/Among us.jpg" alt="Image Description" align="left"></a>
+
+                <a href="">
+                    <font size="4" face="arial narrow" color="teal">
+                        <label for="Item Description"><b>Among us</b></label>
+                    </font>
+                </a>
+                <br>
+
+                <font size="4" face="arial narrow" color="red">
+                    <label for="Item Price"><del>$5.99</del> <ins>$3.99</ins></label>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption> Multiplayer/Online, Co-Op, Space, Survival, 2D </figcaption>
+                </font>
+            </td>
+
+            <td>
+                <a href=""><img src="images/product/AttackonTitan2.jpg" alt="Image Description" align="center"></a>
+
+                <a href="">
+                    <font size="4" face="arial narrow" color="teal">
+                        <label for="Item Description">
+                            <b>
+                                Attack on Titan 2
+                            </b>
+                        </label>
+                    </font>
+                </a>
+                <br>
+
+                <font size="4" face="arial narrow" color="red">
+                    <label for="Item Price"><del>$59.99</del> <ins>$39.99</ins></label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>Action, AnimeCharacter, Customization, RPG</figcaption>
+                </font>
+            </td>
+
+            <td>
+                <a href="">
+                    <img src="images/product/BDO.jpg" alt="Image Description" align="right">
+                </a>
+
+                <a href="">
+                    <font size="4" face="arial narrow" color="teal">
+                        <label for="Item Description">
+                            <b>
+                                Black Desert Online
+                            </b>
+                        </label>
+                    </font>
+                </a>
+                <br>
+
+
+                <font size="4" face="arial narrow" color="black">
+                    <label for="Item Price">$8.99</label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>MMO, RPG, Massively, Multiplayer, Fantasy</figcaption>
+                </font>
+            </td>
+
+
+ 	 </tr>
+  <tr height = "280" >
+
+
+    <td>
+
+        <a href="">
+            <img src="images/product/DGBZ.jpg" alt="Image Description" align="left">
+        </a>
+
+        <a href="">
+            <font size="4" face="arial narrow" color="teal">
+                <label for="Item Description">
+                    <b>
+                        DRAGON BALL FighterZ
+                    </b>
+                </label>
+            </font>
+        </a>
+        <br>
+
+
+            <font size="4" face="arial narrow" color="black">
+                <label for="Item Price">$49.99</label><br>
+            </font>
+            <font size="4" face="arial narrow" color="grey">
+                <figcaption>Fighting, Anime, Action2D, FighterMultiplayer</figcaption>
+            </font>
+    </td>
+
+    <td>
+
+        <a href="">
+            <img src="images/product/Descent.jpg" alt="Image Description" align="center">
+        </a>
+
+        <a href="">
+            <font size="4" face="arial narrow" color="teal">
+                <label for="Item Description">
+                    <b>
+                        Descent 3
+                    </b>
+                </label>
+            </font>
+        </a>
+        <br>
+
+
+            <font size="4" face="arial narrow" color="black">
+                <label for="Item Price">$8.99</label><br>
+
+            </font>
+            <font size="4" face="arial narrow" color="grey">
+                <figcaption>Action, FPS, Sci-fi, ClassicShooter</figcaption>
+            </font>
+    </td>
+
+
+    <td>
+
+        <a href="./product_pages/DirtRally2p0v2/frame0.html">
+            <img src="images/product/DirtRally.jpg" alt="Image Description" align="right">
+        </a>
+
+        <a href="./GroupAssignment/GroupAssignmentHTML/product_pages/DirtRally2p0v2">
+            <font size="4" face="arial narrow" color="teal">
+                <label for="Item Description">
+                    <b>
+                        DiRT Rally 2.0
+                    </b>
+                </label>
+            </font>
+        </a>
+        <br>
+
+            <font size="4" face="arial narrow" color="black">
+                <label for="Item Price">$22.99</label><br>
+            </font>
+            <font size="4" face="arial narrow" color="grey">
+                <figcaption>Racing, Simulation, Automobile, SimSportsVR</figcaption>
+            </font>
+    </td>
+
+    </tr>
+
+    <tr height = "280" >
+        <td>
+
+            <a href="">
+                <img src="images/product/EuroTruck2.jpg" alt="Image Description" align="left">
+            </a>
+
+            <a href="">
+                <font size="4" face="arial narrow" color="teal">
+                    <label for="Item Description">
+                        <b>
+                            Euro Truck Simulator 2
+                        </b>
+                    </label>
+                </font>
+            </a>
+            <br>
+
+                <font size="4" face="arial narrow" color="black">
+                    <label for="Item Price">$17.99</label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>Simulation, Driving, Automobile Sim, Open World</figcaption>
+                </font>
+        </td>
+
+        <td>
+
+            <a href="">
+                <img src="images/product/FTL.jpg" alt="Image Description" align="center">
+            </a>
+
+            <a href="">
+                <font size="4" face="arial narrow" color="teal">
+                    <label for="Item Description">
+                        <b>
+                            FTL: Faster Than Light
+                        </b>
+                    </label>
+                </font>
+            </a>
+            <br>
+
+
+                <font size="4" face="arial narrow" color="black">
+                    <label for="Item Price">$8.99</label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>Roguelike, Space, Strategy, Sci-fi, Indie2D</figcaption>
+                </font>
+        </td>
+
+        <td>
+            <a href="">
+                <img src="images/product/Tis100.jpg" alt="Image Description" align="right">
+            </a>
+
+            <a href="">
+                <font size="4" face="arial narrow" color="teal">
+                    <label for="Item Description">
+                        <b>
+                            TIS-100
+                        </b>
+                    </label>
+                </font>
+            </a>
+            <br>
+
+
+                <font size="4" face="arial narrow" color="black">
+                    <label for="Item Price">$4.99</label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>Programming, Puzzle, Indie, Simulation, Logic</figcaption>
+                </font>
+        </td>
+    </tr>
+
+    <tr height = "280" >
+        <td>
+            <a href="">
+                <img src="images/product/Freespace 2.jpg" alt="Image Description" align="right">
+            </a>
+
+            <a href="">
+                <font size="4" face="arial narrow" color="teal">
+                    <label for="Item Description">
+                        <b>
+                            Freespace 2
+                        </b>
+                    </label>
+                </font>
+            </a>
+            <br>
+
+                <font size="4" face="arial narrow" color="black">
+                    <label for="Item Price">$8.99</label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>Race, Sci-fi, Action, Simulation, Classic</figcaption>
+                </font>
+        </td>
+
+        <td>
+            <a href="">
+                <img src="images/product/GTA5.jpg" alt="Image Description" align="left" >
+            </a>
+
+            <a href="">
+                <font size="4" face="arial narrow" color="teal">
+                    <label for="Item Description">
+                        <b>
+                            Grand Theft Auto V
+                        </b>
+                    </label>
+                </font>
+            </a>
+            <br>
+
+
+
+                <font size="4" face="arial narrow" color="red">
+                    <label for="Item Price"><del>$49.99</del> <ins>$24.99</ins></label><br>
+                </font>
+                <font size="4" face="arial narrow" color="grey">
+                    <figcaption>Open World, Action, Multiplayer, Automobile Sim</figcaption>
+                </font>
+        </td>
+
+        <td>
+
+            <a href="">
+                <img src="images/product/TabletopSim.jpg" alt="Image Description" align="center">
+            </a>
+
+            <a href="">
+                <font size="4" face="arial narrow" color="teal">
+                    <label for="Item Description">
+                        <b>
+                            Tabletop Simulator
+                        </b>
+                    </label>
+                </font>
+            </a>
+            <br>
+
+                <font size="4" face="arial narrow" color="black">
+                    <label for="Item Price">$15.99</label><br>
+                </font>
+                <font size="4" face="arial
+                 narrow" color="grey">
+                    <figcaption>Tabletop, Board Game, Simulation, Multiplayer</figcaption>
+                </font>
+        </td>
+
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>

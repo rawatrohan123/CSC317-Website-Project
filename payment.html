@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<title>Payment - Acrux Games</title>
+
+<link rel="stylesheet" href="./CSS/header_footer_styles.css">
+<link rel="stylesheet" href="./CSS/universal-siteskin.css" type="text/css">
+
+ <!-- Main Nav bar. Uniform across all pages. - GS-->
+ <header>
+     <table width="100%">
+         <tr>
+             <td width="20%" align="left">
+                 <table>
+                     <tr>
+                         <td width="85%" align="center" class="header-title links_no_underline link-hover">
+                             <a href="./productpage.html">Acrux Games</a>
+                         </td>
+                     </tr>
+                 </table>
+ 
+             </td>
+             <td width="40%">
+                 <table width="100%" class="header-links-pages links_no_underline link-hover">
+                     <tr>
+                         <td width="33%" align="center">
+                             <a href="./productpage.html">
+                                 <b>GAMES</b>
+                             </a>
+                         </td>
+                         <td width="33%" align="center">
+                             <a href="">
+                                 <b>RETRO FINDS</b>
+                             </a>
+                         </td>
+                         <td width="33%" align="center">
+                             <a href="">
+                                 <b>SALE</b>
+                             </a>
+                         </td>
+                     </tr>
+                 </table>
+ 
+             </td>
+             
+             <td width="12%">
+                 <table width="80%" align="right">
+                     <tr align="right">
+                         <td width="100%" alignment = "right" >
+                             <input type="text" placeholder="Search for something..." class="searchbox-stylized">
+                         </td>
+                     </tr>
+                 </table>
+             </td>
+ 
+             <td width="2%">
+                 <table width="80%" align="left">
+                     <tr align="left">
+                         <td width="100%" alignment = "left">
+                             <a href=""><img src="./images/nav_bar/search_by_Georgina_Shirazi.png" width="25" name="Search"></a>
+                         </td>
+                     </tr>
+                 </table>
+             </td>
+             <td width="6%">
+                 <table width="80%" align="right" class="header-lang-reg links_no_underline link-hover">
+                     <tr align="center">
+                         <td width="33%">
+                             <a>U.S.A.</a>
+                         </td>
+                         <td width="33%">
+                             <a>EN</a>
+                         </td>
+                     </tr>
+                 </table>
+             </td>
+             <td width="12%">
+                 <table width="60%" align="center">
+                     <tr>
+                         <td width="25%" align="right">
+                             <a href="./Login/login.html" alt="Login" title="Login"><img
+                                     src="./images/nav_bar/profile_pic_madeby_Georgina_Shirazi" height="50"></a>
+                         </td>
+                         <td width="25%" align="center">
+                             <a href="./wishlist.html" alt="Wishlist" title="Wishlist"><img
+                                     src="./images/nav_bar/wishlist_madeby_Georgina_Shirazi" height="50"></a>
+ 
+                         </td>
+                         <td width="25%" align="center">
+                             <a href="./system_preferences/sp_personal_info.html" alt="Settings" title="Settings"><img
+                                     src="./images/nav_bar/settings.png" height="50"></a>
+ 
+                         </td>
+                         <td width="25%" align="left">
+                             <a href="./ShoppingCart.html" alt="Shopping Bag" title="Shopping Bag"><img
+                                     src="./images/nav_bar/shopping_bag_madeby_Georgina_Shirazi.png" height="50"></a>
+                         </td>
+                     </tr>
+                 </table>
+             </td>
+         </tr>
+     </table>
+ </header>
+
+
+
+
+
+
+
+<body>
+     <form action="./thankyou.html" method="POST">
+
+
+          <table width="100%" cellpadding="0" cellspacing="0">
+               <tr>
+                    <td width = "12%"></td>
+                    <td valign="top" align="left" width = "35%">
+                         <h3>Shipping Address</h3>
+                         <label for="fname">First Name:</label> 
+                         <input type="text" name="fname" required>
+                         
+                         <br><br>
+               
+                         <label for="lname">Last Name:</label>
+                         <input type="text" name="lname" required>
+                         <br><br>
+               
+                         <label for="email">Email address:</label>
+                         <input type="email" id="email" placeholder="foo@acruxgames.com" required> <!--no pattern is needed here. Only input type.-->
+                         <br><br>
+               
+                         <label for="phone">Phone number:</label>
+                         +<input type="tel" name="new_phonenumber" placeholder="1 555-123-4567" pattern="[0-9]{1} [0-9]{3}-[0-9]{3}-[0-9]{4}" >
+                         <br><br>
+               
+                         <label for="addr">Address:</label>
+                         <input type="text" name="address" required>
+                         <br><br>
+               
+                         <label for="city">City:</label>
+                         <input type="text" name="address" required>
+                         <br><br>
+               
+                         <label for="state">State:</label>  
+                         <select name="state" id="state" required>
+                              <option value=""></option>
+                              <option value="AL">AL</option>
+                              <option value="AK">AK</option>
+                              <option value="AZ">AZ</option>
+                              <option value="AR">AR</option>
+                              <option value="CA">CA</option>
+                              <option value="CO">CO</option>
+                              <option value="CT">AL</option>
+                              <option value="DE">AK</option>
+                              <option value="FL">AZ</option>
+                              <option value="GA">AR</option>
+                              <option value="HI">CA</option>
+                              <option value="ID">CO</option>
+                              <option value="IL">AL</option>
+                              <option value="IN">AK</option>
+                              <option value="IA">AZ</option>
+                              <option value="KS">AR</option>
+                              <option value="KY">CA</option>
+                              <option value="LA">CO</option>
+                              <option value="ME">AL</option>
+                              <option value="MD">AK</option>
+                              <option value="MA">AZ</option>
+                              <option value="MI">AR</option>
+                              <option value="MN">CA</option>
+                              <option value="MS">CO</option>
+                              <option value="MO">AL</option>
+                              <option value="MT">AK</option>
+                              <option value="NE">AZ</option>
+                              <option value="NV">AR</option>
+                              <option value="NH">CA</option>
+                              <option value="NJ">CO</option>
+                              <option value="NM">AL</option>
+                              <option value="NY">AK</option>
+                              <option value="NC">AZ</option>
+                              <option value="ND">AR</option>
+                              <option value="OH">CA</option>
+                              <option value="OK">CO</option>
+                              <option value="OR">AL</option>
+                              <option value="PA">AK</option>
+                              <option value="RI">AZ</option>
+                              <option value="SC">AR</option>
+                              <option value="SD">CA</option>
+                              <option value="TN">CO</option>
+                              <option value="TX">AL</option>
+                              <option value="UT">AK</option>
+                              <option value="VT">AZ</option>
+                              <option value="VA">AR</option>
+                              <option value="WA">CA</option>
+                              <option value="WV">CO</option>
+                              <option value="WI">CA</option>
+                              <option value="WY">CO</option>
+                              </select>
+                         <br><br>
+               
+                         <label for="zip">Zip code:</label>
+                         <input type="text" name="zip" placeholder="five-digit ZIP or ZIP+4 format" pattern="^[0-9]{5}(?:-[0-9]{4})?$" required>
+                         <br><br>
+                    </td>
+                    <td width = "10%"></td>
+                    <td valign="top" align="left" width = "35%">
+                         <h3>Billing Address</h3>
+                         <label for="fname">First Name:</label> 
+                         <input type="text" name="fname" required>
+                         
+                         <br><br>
+               
+                         <label for="lname">Last Name:</label>
+                         <input type="text" name="lname" required>
+                         <br><br>
+               
+                         <label for="email">Email address:</label>
+                         <input type="email" id="email" placeholder="foo@acruxgames.com" required> <!--no pattern is needed here. Only input type.-->
+                         <br><br>
+               
+                         <label for="phone">Phone number:</label>
+                         +<input type="tel" name="new_phonenumber" placeholder="1 555-123-4567" pattern="[0-9]{1} [0-9]{3}-[0-9]{3}-[0-9]{4}" >
+                         <br><br>
+               
+                         <label for="addr">Address:</label>
+                         <input type="text" name="address" required>
+                         <br><br>
+               
+                         <label for="city">City:</label>
+                         <input type="text" name="address" required>
+                         <br><br>
+               
+                         <label for="state">State:</label>  
+                         <select name="state" id="state" required>
+                              <option value=""></option>
+                              <option value="AL">AL</option>
+                              <option value="AK">AK</option>
+                              <option value="AZ">AZ</option>
+                              <option value="AR">AR</option>
+                              <option value="CA">CA</option>
+                              <option value="CO">CO</option>
+                              <option value="CT">AL</option>
+                              <option value="DE">AK</option>
+                              <option value="FL">AZ</option>
+                              <option value="GA">AR</option>
+                              <option value="HI">CA</option>
+                              <option value="ID">CO</option>
+                              <option value="IL">AL</option>
+                              <option value="IN">AK</option>
+                              <option value="IA">AZ</option>
+                              <option value="KS">AR</option>
+                              <option value="KY">CA</option>
+                              <option value="LA">CO</option>
+                              <option value="ME">AL</option>
+                              <option value="MD">AK</option>
+                              <option value="MA">AZ</option>
+                              <option value="MI">AR</option>
+                              <option value="MN">CA</option>
+                              <option value="MS">CO</option>
+                              <option value="MO">AL</option>
+                              <option value="MT">AK</option>
+                              <option value="NE">AZ</option>
+                              <option value="NV">AR</option>
+                              <option value="NH">CA</option>
+                              <option value="NJ">CO</option>
+                              <option value="NM">AL</option>
+                              <option value="NY">AK</option>
+                              <option value="NC">AZ</option>
+                              <option value="ND">AR</option>
+                              <option value="OH">CA</option>
+                              <option value="OK">CO</option>
+                              <option value="OR">AL</option>
+                              <option value="PA">AK</option>
+                              <option value="RI">AZ</option>
+                              <option value="SC">AR</option>
+                              <option value="SD">CA</option>
+                              <option value="TN">CO</option>
+                              <option value="TX">AL</option>
+                              <option value="UT">AK</option>
+                              <option value="VT">AZ</option>
+                              <option value="VA">AR</option>
+                              <option value="WA">CA</option>
+                              <option value="WV">CO</option>
+                              <option value="WI">CA</option>
+                              <option value="WY">CO</option>
+                              </select>
+                         <br><br>
+               
+                         <label for="zip">Zip code:</label>
+                         <input type="text" name="zip" placeholder="five-digit ZIP or ZIP+4 format" pattern="^[0-9]{5}(?:-[0-9]{4})?$" required>
+                         <br><br>
+                    </td>
+                    <td width = "12%"></td>
+               </tr>
+               <tr>
+                    <td width = "12%"></td>
+                    <td align="left" valign="top" width = "35%">
+                         <label>
+                              <input type="checkbox" checked="checked" name="sameadr"> Billing address same as shipping
+                         </label>
+                    </td>
+               </tr>
+               
+               <tr>
+                    <td width = "12%"></td>
+                    <td valign="top" align="left" width = "35%" ></td>
+                    <td width = "10%"></td>
+                    <td valign="top" align="left" width = "35%" >
+                         <br>
+                         <h3>Payment</h3>
+               
+                         <label for="nameoncc">First name on Card:</label>
+                         <input type="text" name="fname" required>
+                         <br><br>
+
+                         <label for="nameoncc">Last name on Card:</label>
+                         <input type="text" name="fname" required> <!--pattern="[A-Z][a-zA-Z]+-->
+                         <br><br>
+
+                         <label for="ccnum">Credit card number:</label>
+                         <input type="text" name="cardnumber" pattern="^[0-9|| ]+" required>
+                         <br>Digits 0-9 inclusive and spaces only.
+                         <br><br>
+
+                         <label for="expmonth">Expiration Month:</label>
+                         <select name="month" id="expmonth" required>
+                              <option selected value='1'>January</option>
+                              <option value='2'>February</option>
+                              <option value='3'>March</option>
+                              <option value='4'>April</option>
+                              <option value='5'>May</option>
+                              <option value='6'>June</option>
+                              <option value='7'>July</option>
+                              <option value='8'>August</option>
+                              <option value='9'>September</option>
+                              <option value='10'>October</option>
+                              <option value='11'>November</option>
+                              <option value='12'>December</option>
+                          </select>
+                         <br><br>
+
+                         <label for="expyear">Expiration Year:</label>
+                         <input type="number" name="expyear" min="2021" max="2099" required>
+                         <br><br>
+
+                         <label for="ccv">CCV Code:</label>
+                         <input type="letters" name="ccv" minlength="3" maxlength="5" pattern="[0-9]+" required>
+                         <br>
+                         Digits 0-9 only. Minimum length 3, maximum length 5 digits.
+                         <br><br>
+                    </td>
+               </tr>
+               <tr>
+                    <td width = "10%"></td>
+                    <td valign="right" colspan="3" align="center">
+                         <br><br><br>
+                         <p><a href="#">Product 1</a> <b>$10</b></p>
+                         <p><a href="#">Product 2</a> <b>$5</b></p>
+                         <p>Total <b>$20.99</b></p>
+                    
+                         <h4>My Cart</h4>
+                         <input type="submit" value="Place Order">
+                    </td>
+               </tr>
+          </table>
+
+          
+
+          
+
+         
+     </form>
+
+
+     <!--almost empty table below, perhaps fix later. Cancel button redirects to homepage.-->
+
+     <table width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+               <td width = "12%"></td>
+               <td valign="top" align="left" width = "35%">
+
+               </td>
+               <td width = "10%"></td>
+               <td valign="top" align="left" width = "35%">
+               </td>
+               <td width = "12%"></td>
+          </tr>
+          <tr>
+               <td width = "12%"></td>
+               <td align="left" valign="top" width = "35%">
+
+               </td>
+          </tr>
+          
+          <tr>
+               <td width = "12%"></td>
+               <td valign="top" align="left" width = "35%" ></td>
+               <td width = "10%"></td>
+               <td valign="top" align="left" width = "35%" >
+
+               </td>
+          </tr>
+          <tr>
+               <td width = "10%"></td>
+               <td valign="right" colspan="3" align="center">
+                    <form action="./productpage.html" method="POST" >
+                        
+                                        <input type="submit" value="Cancel Order">
+                    </form>
+               </td>
+          </tr>
+     </table>
+
+     
+
+
+
+     
+     
+    
+     
+
+</body>
+
+
+
+<footer>
+    <table width="100%" border="2" rules = "cols" cellpadding="10">
+        <!--Table of 2 row and 5 columns. Each one contains -->
+  
+        <tr align = "center"  width="100%"  > <!--"Headers"-->
+            <td width="20%" >
+                <font color="Grey" size="5" face="Fantasy"> OUR STORE</font>
+            </td>
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> CLIENT SERVICES</font>
+            </td>
+  
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> CONTACT US</font>
+            </td>
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> NEWSLETTER</font>
+            </td>
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> CONNECT</font>
+            </td>
+        </tr>
+  
+         <!--Table of 2 row and 5 columns. Each one contains -->
+        <tr class="footer-links footer-contents links_no_underline link-hover">
+            <td width = "20%">
+                <table width = "100%" >
+                    
+                    <tr align="center">
+                        <td width = "25%"> </td>
+                        <td width = "50%" >
+                            <table cellpadding="8" >
+                                <tr>
+                                    <td>
+                                        <a href="./company-info.html">ABOUT US</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="./office_hours_and_location.html"> LOCATIONS & HOURS</a>
+                                    </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "25%"> </td>
+                    </tr>
+                </table>
+            </td>
+  
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr align="center">
+                        <td width = "19%"> </td>
+                        <td width = "62%">
+                            <table cellpadding="8">
+                                <tr >
+                                    <td>
+                                        <a href="./FAQ.html"> FAQ </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="./returnpages.html"> RETURNS</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""> SHIPPING</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""> PAYMENT</a>
+                                    </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "19%"> </td>
+                    </tr>
+                </table>
+            </td>
+  
+  
+  
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr>
+                        <td align="center">
+                            <table cellpadding="8">
+                                
+                                <tr>
+                                    <td >
+                                        CALL US:
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="footer-contents-special">
+                                        +1 555 456 789
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       MON-SAT 9AM - 9PM
+                                    </td>
+                                </tr>
+  
+                                
+                                <tr>
+                                    <td>
+                                        EMAIL US:
+                                        
+                                    </td>
+                                </tr>
+  
+                                <tr>
+                                    <td class="footer-contents-special">
+                                        contact@acruxgames.com
+                                    </td>
+                                </tr>
+                                
+  
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+  
+  
+  
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr>
+                        <td width = "25%"> </td>
+                        <td width = "50%" >
+                            <table cellpadding="8" align = "center">
+                                <tr>
+                                    <td> 
+                                        <a href="./subscribe.html">SUBSCRIBE</a>
+                                    </td>
+                                   <td> <font size = "3"><br></font> </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "25%"> </td>
+                    </tr>
+                </table>
+            </td>
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr>
+                        <td width = "20%"> </td>
+                        <td width = "60%" >
+                            <table cellpadding="8" align = "center">
+                                <tr>
+                                    <td>
+                                        <a href="https://twitter.com/AcruxGaming3">
+                                            <img src="./images/footer_subscribe_images/2021 Twitter logo - blue.png" height="32">
+                                            
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.instagram.com/">
+                                            <img src="./images/footer_subscribe_images/instagram_logo.png" height="32">
+                                        </a>
+  
+                                    </td>
+                                    <td>
+                                        <a href="https://slack.com/">
+                                            <img src="./images/footer_subscribe_images/Slack_Mark_Web.png" height="32">
+                                        </a>
+  
+                                    </td>
+                                    <td>
+                                        <a href="https://discord.com/">
+                                            <img src="./images/footer_subscribe_images/Discord-Logo-Color.png" height="32">
+                                        </a>
+  
+                                    </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                               
+                                
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "20%"> </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+  
+    </table>
+  </footer>
+
+
+
+</html>
