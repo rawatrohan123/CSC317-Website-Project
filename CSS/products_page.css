@@ -1,0 +1,128 @@
+
+/*Product Page*/
+.homepage-flexbox {
+    border: 2px solid grey;
+    flex-basis: 20%;
+    box-shadow: 0 0 2px 2px grey;
+
+    background-image: linear-gradient(to right, teal , rgb(13, 182, 182));
+    
+    transition: opacity 500ms;
+    opacity: 1;
+    margin: 10px;
+
+   height: 292px;
+}
+
+.homepage-flexbox:hover {
+    border: 2px solid grey;
+    flex-basis: 20%;
+    box-shadow: 0 0 2px 2px grey;
+
+    background-image: linear-gradient(to right, rgb(0, 179, 179) , rgb(116, 218, 218));
+
+    
+    margin: 10px;
+}
+
+.product-tile-title {
+    font-family: "Arial Narrow", Arial;
+    font-size: 30px;
+    
+    margin-top:  5px;
+    margin-bottom:  10px;
+    padding: 0 10px;
+
+    text-shadow: 0 0 3px cyan;
+
+    color: white
+}
+
+.product-tile-contents {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+.product-tile-price {
+    font-family: Arial;
+    background-color: rgb(1, 89, 92);
+    color:rgb(195, 244, 247);
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+
+    position: relative;
+    top: -3px;
+}
+
+.product-tile-price:hover {
+    background-color: teal;
+    transition: background-color 200ms linear;
+}
+
+
+.product-tile-price-sale {
+    color:red
+}
+
+.product-tag {
+    transition: background-color 200ms linear;
+    background-color: rgb(0, 160, 160);
+    border-radius: 2px;
+    border-style: solid;
+    border: 5px;
+    color: rgb(1, 59, 59);
+
+
+    
+    font-size: 15px;
+
+    display:inline-block;
+
+    margin: 2px;
+    padding: 2px;
+}
+
+.product-tag:hover {
+    transition: background-color color 200ms linear;
+    background-color: rgb(7, 216, 216);
+    color:white;
+}
+
+.add-to-cart-button {
+    font-family: "Arial Narrow", Arial;
+    font-size: 13px;
+    font-weight: bold;
+
+
+    transition: background-color 200ms linear;
+    
+    border-radius: 5px;
+    border-style: solid;
+
+    
+    background-color: rgb(1, 89, 92);
+    color: rgb(211, 255, 255);
+
+    box-shadow: 0 0 2px 2px cyan;
+
+
+    
+
+    display:inline-block;
+
+    border: 5px;
+    margin: 0 10px 12px 10px;
+    padding: 5px;
+}
+
+.add-to-cart-button:hover {
+    transition: background-color color 200ms linear;
+    background-color: rgb(2, 223, 223);
+
+    color: white;
+}
+

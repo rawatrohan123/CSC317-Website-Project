@@ -1,0 +1,686 @@
+
+/*Holds inner 3 contents -> margin | content | margin*/
+.ppage-outer-flex-container {
+    display: flex;
+    height:800px
+}
+
+/*margin -- empty*/
+.ppage-margins { width:15% }
+
+/*content pane, contains left and right flextables*/
+.ppage-inner {
+    display: flex;
+    width:100%
+}
+
+
+
+
+
+
+/*content pane, left flextable*/
+.ppage-content-left {
+    width: 892px;
+    
+    flex-flow: column wrap;
+}
+
+.ppage-content-left > div {
+    margin: 8px
+}
+
+
+
+/*Content Pane, left, big window*/
+.ppage-content-left-bwindow {
+    display: flex;
+    height:502px
+}
+
+
+
+
+
+.ppage-content-left-slidebar {
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    scrollbar-color: grey #454545;
+    scrollbar-width:thin;
+
+    height: 140px;
+    width: 876px;
+
+    
+    background-color: grey;
+    
+
+    
+    
+}
+
+
+
+
+
+/*
+background-image: repeating-linear-gradient(
+        45deg,
+        
+        rgb(175, 175, 175),
+         white 15%,
+      
+         rgb(175, 175, 175) 30%
+        
+      );;
+*/
+
+
+
+
+
+
+
+
+.ppage-content-left-slidebar:hover {
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition:scrollbar-color 300ms  linear;
+    scrollbar-color: #40bbc2 #454545;
+    
+    height:140px
+}
+
+
+
+
+.ppage-content-left-slidebar > div {
+    width: auto;
+    display: inline-block;
+    
+}
+
+
+
+
+
+.ppage-content-left-purchase {
+    background-image: linear-gradient(to right, teal , rgb(13, 182, 182));
+    height:90px;
+    color:#c9c9c9;
+    font-size: 27px; 
+
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed
+}
+
+.ppage-content-left-purchase-alt {
+    color: white;
+    font-family: Arial;
+    text-shadow:  0 0 2px cyan;
+    
+    font-stretch:normal
+}
+
+
+
+
+
+
+
+/*content pane, right flextable*/
+.ppage-content-right {
+    margin-right: 8px;
+    width:400px
+}
+
+/*margins on all sides except for the left*/
+.ppage-content-right > div {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 0px;
+}
+
+
+.ppage-content-right-image {
+    height:183px
+
+}
+
+.ppage-content-right-descr {
+    text-align: left;
+    height:413px
+}
+
+
+
+
+/*52*/
+
+
+
+
+
+
+
+.product-page-title {
+    color:grey;
+    font-size: 230%; 
+    font-family: Fantasy, Arial;
+}
+
+/*<font color="Grey" size="3" face="Fantasy" align="top">*/
+.product-page-descr {
+    font-size: 100%; 
+}
+
+
+
+.product-page-buy-button-outer{
+    font-family: Arial;
+    font-size: 25px;
+    display: flex;
+    color:white;
+    background-color: rgb(1, 89, 92);
+    
+    padding: 10px 15px  10px 10px ;
+    border-radius: 5px; 
+}
+
+.purchase-button > input[type="submit"]
+{
+    font-family: Arial;
+    font-size: 20px;
+    
+
+    color:white; 
+    border-color: grey;
+    background-color: rgb(39, 179, 26); 
+    border-radius: 5px; 
+    height:40px; 
+    width:150px
+}
+
+.purchase-button > input[type="submit"]:hover
+{
+    transition:background-color 300ms  linear;
+    background-color: rgb(50, 228, 34); 
+}
+
+
+.product-page-tags-outer {
+    display: flex;
+    
+}
+
+.product-page-tags-outer > div {
+    margin: 4px;
+    background-color: teal;
+    border-radius: 2px; 
+    height: 40px;
+
+    color:rgb(156, 151, 151);
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+.product-page-tags-outer > div {
+    margin: 4px;
+    background-color: teal;
+    border-radius: 2px; 
+    height: 40px;
+
+    color:rgb(156, 151, 151);
+    font-family: Arial;
+    font-size: 18px;
+    
+    text-decoration: none
+}
+
+.product-page-tags-outer >div:hover {
+    transition:background-color 300ms  linear;
+    background-color: #21b8b5;
+}
+
+.product-page-tags-outer > div a {
+    text-decoration: none;
+    color: #c9c9c9;
+}
+
+.product-page-tags-outer > div a:hover {
+    
+    transition:color 300ms  linear;
+    
+    color: white;
+}
+
+.sale {
+    margin-right: 5px;
+    position: relative;  right: 2px;
+    
+    box-shadow: 0 0 2px 2px lime;
+    text-shadow: 0 2 lime;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 172, 0);
+
+    background: linear-gradient(to right, rgb(0, 128, 17) , rgb(0, 177, 24));
+
+    font-size: 18px;
+
+    border-radius: 5px;
+    border: 5px;
+    padding: 5px;
+}
+
+
+
+.sale-price-cross{
+    font-size: 15px;
+    position:relative; top: -5px; margin: 0px;
+    text-decoration: line-through;
+    color:grey
+}
+
+.sale-price-cross-title {
+    font-size: 20px;
+    position:relative; top: -5px;
+    text-shadow: none;
+    text-decoration: line-through;
+    color:#166a6d
+}
+
+/*Leaving the logic here incase I want to switch sale price display*/
+.sale-price-title {
+    color:white
+}
+
+
+
+
+.add-to-cart-button {
+    font-family: "Arial Narrow", Arial;
+    font-size: 19px;
+    font-weight: bold;
+
+
+    transition: background-color 200ms linear;
+    
+    border-radius: 5px;
+    border-style: solid;
+
+    
+    background-color: rgb(0, 180, 171);
+    color: rgb(211, 255, 255);
+
+    box-shadow: 0 0 2px 2px cyan;
+
+
+    
+
+    display:inline-block;
+
+    border: 5px;
+    padding: 5px;
+}
+
+.add-to-cart-button:hover {
+    transition: background-color color 200ms linear;
+    background-color: rgb(2, 223, 223);
+
+    color: white;
+}
+
+
+.expand-tags-button {
+    border: 5px;
+    margin: 2px;
+    padding: 5px;
+
+    background: none;
+    border-style: none;
+
+    color: grey;
+    font-family: Arial;
+    font-size: 30px;
+
+    transition:  text-shadow 300ms linear;
+    text-shadow: 0 0 0 cyan;
+
+    position:relative;
+}
+
+.expand-tags-button:hover {
+    transition: text-shadow 300ms linear;
+    color: rgb(0, 172, 172);
+    text-shadow: 0 0 2px cyan;
+}
+
+
+
+
+.ppage-content-left-purchase-price {
+    margin: 5px;
+}
+
+
+
+
+.product-tags-container {
+    height:37px
+}
+
+/*48*/
+
+.product-tag-numbers {
+    transition: color 200ms linear;
+    border-radius: 5px;
+    border-style: solid;
+    border: 5px;
+    color: cyan;
+
+    font-family: Arial;
+    font-size: 20px;
+
+    text-decoration: none;
+
+    
+    font-size: 18px;
+
+
+    margin: 2px;
+    padding: 8px;
+}
+
+
+.product-tag {
+    transition: background-color 200ms linear;
+    background-color: rgb(0, 160, 160);
+    border-radius: 5px;
+    border-style: solid;
+    border: 5px;
+    color: rgb(1, 59, 59);
+
+    font-family: Arial;
+    font-size: 20px;
+
+    text-decoration: none;
+
+    
+    font-size: 18px;
+
+    display:inline-block;
+
+    margin: 2px;
+    padding: 8px;
+}
+
+.product-tag-first {
+    margin: 2px 2px  2px 0px
+}
+
+.product-tag:hover {
+    transition: background-color color 200ms linear;
+    background-color: rgb(7, 216, 216);
+    color:white;
+}
+
+.description {
+    color: grey;
+    font-size: 16px;
+    font-family: Fantasy;
+    
+
+    text-align: left;
+    
+    word-wrap:break-word;
+    
+    height: 220px;
+    width: 392px
+    
+}
+
+.categories-outer {
+    height: 181px
+}
+
+/*size="3" face="arial narrow" align="top">*/
+.categories {
+    width: 35%;
+    color:Grey;
+    font-size: 16px; 
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed
+}
+
+/*<font color="teal" size="3" face="arial" align="top">*/
+.categories-content {
+    width: 30%;
+    color:teal;
+    font-size: 16px; 
+    font-family: Arial;
+    font-stretch: normal
+}
+
+
+/*<font color="grey" size="3" face="arial" align="top">*/
+
+.categories-numbers{
+    width: 34%;
+    color:grey;
+}
+
+.box-shadow {
+    box-shadow: 0 0 2px 2px grey
+}
+
+
+
+.box-shadow-neon {
+    box-shadow: 0 0 1px 1px cyan, inset 0 0 1px 2px cyan
+}
+
+.tag-window-outer {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+
+    visibility:hidden;
+
+    opacity: 0;
+   
+    transition: opacity 300ms  linear;
+}
+
+
+
+
+/* visibility:hidden;*/
+
+.tag-window-overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+    opacity: 40%;
+    box-shadow: inset 0 0 100px 100px rgb(3, 202, 202);
+}
+
+.tag-window-background {
+    background-image: linear-gradient(to right, teal , rgb(12, 161, 161));
+}
+
+.tag-window {
+    position:absolute;
+    width: 736px;
+
+    left: 30%;
+    top: 10%;
+
+    background-image: linear-gradient(to right, teal , rgb(12, 161, 161));
+    
+    display:flexbox;
+
+    /*
+    display:flex;
+    */
+    
+
+
+
+}
+
+
+.tag-window-title {
+    margin: 5px;
+    margin-bottom: 0px;
+    
+    
+    padding: 22px 10px 22px 10px;
+}
+
+.font-tag-window-title-base {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif, Fantasy, Arial;
+    color: rgb(1, 59, 59);
+}
+
+
+
+.font-tag-window-title {
+    text-shadow: 0 0 3px cyan;
+    color: white
+}
+
+.tag-window-outer-2 {
+    width: 718px; 
+    display: flex; 
+    flex-flow: column; 
+    position: relative; 
+    top: 50px;
+}
+
+
+.tag-window-inner-container {
+    width: 706px;
+    display:flex;
+    flex-flow: row wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.tag-window-tag-stats-outer {
+    display: flex; 
+
+    margin: 1.5px; 
+    padding: 1px;
+    
+    /*
+    margin-left: 15px; 
+    margin-right: 15px;
+    */
+    border-radius: 5px;
+    background-color: rgb(1, 59, 59);
+}
+
+
+.tag-window-product-tag {
+    margin: 1px;
+    font-size: 20px
+}
+
+.scrollbar-tags {
+    margin: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+
+
+    display:flex;
+    flex-flow:column;
+
+    /*height: 468px;*/
+    height: 377px;
+
+    
+    transition:scrollbar-color 300ms  linear;
+    scrollbar-color: grey #454545;
+    scrollbar-width:thin;
+}
+
+.scrollbar-tags:hover {
+    transition:scrollbar-color 300ms  linear;
+    scrollbar-color: #40bbc2 #454545;
+}
+
+.font-tag-window-scrollbar-title-common {
+    display:flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    font-family: Arial, Helvetica, sans-serif, Fantasy;
+    
+    color: rgb(1, 59, 59);
+    font-size: 20px;
+}
+
+
+.font-tag-window-scrollbar-title {
+    font-family: Arial;
+}
+
+.font-tag-window-scrollbar-title2 {
+    font-family: Arial;
+}
+
+
+
+.add-tag-button {
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed;
+    font-weight: bold;
+    
+    font-size: 20px;
+
+
+    transition: background-color 200ms linear;
+    
+    border-radius: 5px;
+    border-style: solid;
+
+    
+    background-color: rgb(0, 180, 171);
+    color: rgb(211, 255, 255);
+
+    box-shadow: 0 0 2px 2px cyan;
+
+
+    
+
+    display:inline-block;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    border: 5px;
+}
+
+.add-tag-button:hover {
+    transition: background-color color 200ms linear;
+    background-color: rgb(2, 223, 223);
+
+    color: white;
+}

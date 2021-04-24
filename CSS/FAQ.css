@@ -1,0 +1,38 @@
+/*FAQ page -- Question Answer pairs*/
+.qa-pair-shared {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+    box-shadow: 0 0 2px 2px grey
+}
+
+.qa-pair-margin {
+    margin: 50px
+}
+
+.qa-pair-margin-title {
+    margin: 10px 50px;
+}
+
+.qa-title-shared {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    color: teal;
+}
+
+.qa-question {
+    background-image: linear-gradient(to right, teal , rgb(11, 160, 160) 15%);
+
+    padding: 5px;
+
+    text-align: center;
+    color: white;
+}
+
+.qa-answer {
+    background-color: white;
+    padding: 5px;
+    
+    color: teal;
+}
+

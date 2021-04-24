@@ -1,0 +1,142 @@
+
+/* Button to open the chat */
+.open-button {
+
+  transform: scale(1.5);
+
+  background-color: white;
+  color: green;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+
+  position:relative;
+  
+  bottom: -50px;
+  right: -72px;
+  
+  
+  width: 70px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position:fixed;
+  
+  bottom: 20px;
+  right: 15px;
+  
+  border: 1px solid #5F9EA0;
+  z-index: 9;
+}
+
+.chat-header {
+  padding: 25px 15px;
+  background: SlateBlue;
+  font-size: 30px;
+  color: white;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* Styles of the chat container */
+.form-container {
+  width: 320px;
+
+  /*top right bottom left*/
+  padding: 5px 10px 5px 10px; 
+
+  background-color: Lavender;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 90%;
+  
+  padding: 5px;
+  
+  /*border: none;*/
+  border-width: 10px;
+  border-style: solid;
+  border-color:white;
+
+  background: White;
+  resize: none;
+  min-height: 20px;
+}
+
+/* When the textarea gets focus */
+.form-container textarea:focus {
+  background-color: AliceBlue;
+  outline: none;
+}
+
+/* Style for the send button */
+.form-container .btn {
+  
+  background-color: CadetBlue;
+  color: White;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+.chatarea-background {
+  
+  background-image: linear-gradient(cyan, white);
+
+  
+
+  margin: 10px;
+
+  height: 400px;
+  
+}
+
+.chat-surround {
+  background-color: none;
+  
+
+}
+
+.chat-surround > div {
+  padding: 10px;
+  max-width: 80%;
+
+  background-color: none;
+
+  border-width: 2px 50px 2px 0px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+
+.chat-blurb {
+  padding: 10px;
+  max-width: 80%;
+
+  background-color: none;
+  border-radius: 5px;
+
+  border-width: thick;
+  border-style: solid;
+}
+

@@ -1,0 +1,275 @@
+Inside of System Preferences:
+
+Non-edit version (user is not asking to change this item)
+
+<!--USERNAME-->
+<tr align="center">
+    <td width="25%" > <!--empty-->
+        <font size="4"></font>
+    </td>
+
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">USERNAME:</font>
+    </td>
+
+    <td width="22%" align="left" >
+        <font size="5" face="arial narrow" color="blue">Guest</font>
+    </td>
+
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_username.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+
+    <td width="10%" align="left">
+        <font size="4" face="arial narrow" color="teal"></font>
+    </td>
+
+    <td width="14%"> <!--empty-->
+        <font size="4"></font>
+    </td>
+</tr>
+
+<!--NAME-->
+<tr align="center">
+    <td width="25%" > <!--empty-->
+        <font size="4"></font>
+    </td>
+
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">NAME:</font>
+    </td>
+
+    <td width="22%" align="left" >
+        <font size="5" face="arial narrow" color="blue">First Last</font>
+    </td>
+
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_name.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+
+    <td width="10%" align="left">
+        <font size="4" face="arial narrow" color="teal"></font>
+    </td>
+
+    <td width="14%"> <!--empty-->
+        <font size="4"></font>
+    </td>
+</tr>
+
+<!--BIRTHDAY-->
+<tr align="center">
+    <td width="25%">
+        <font size="4"></font>
+    </td>
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">BIRTHDAY:</font>
+        <br>
+
+    </td>
+    <td width="22%" align="left">
+        <font size="5" face="arial narrow" color="blue">1/1/1990</font>
+    </td>
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_birthday.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+    <td width="10%" align="left">
+        <br>
+    </td>
+    <td width="14%">
+        <font size="4"></font>
+    </td>
+</tr>
+
+<!--EMAIL-->
+<tr align="center">
+    <td width="25%">
+        <font size="4"></font>
+    </td>
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">EMAIL:</font>
+    </td>
+    <td width="22%" align="left">
+        <font size="5" face="arial narrow" color="blue">guest@dione.com</font>
+    </td>
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_email.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+    <td width="10%" align="left">
+        <br>
+    </td>
+    <td width="14%">
+        <font size="4"></font>
+    </td>
+</tr>
+
+<!--PASSWORD-->
+<tr align="center">
+    <td width="25%">
+        <font size="4"></font>
+    </td>
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">PASSWORD:</font>
+    </td>
+    <td width="22%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">changed on: </font> <font size="5" face="arial narrow" color="gray">1/1/2021</font>
+    </td>
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_password.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+    <td width="10%" align="left">
+        <br>
+    </td>
+    <td width="14%">
+        <font size="4"></font>
+    </td>
+</tr>
+
+<!--PHONE NUMBER-->
+<tr align="center">
+    <td width="25%">
+        <font size="4"></font>
+    </td>
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">PHONE NUMBER:</font>
+    </td>
+    <td width="22%" align="left">
+        <font size="5" face="arial narrow" color="blue">+1 555-1234</font>
+    </td>
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_phone_number.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+    <td width="10%" align="left">
+        <br>
+    </td>
+    <td width="14%">
+        <font size="4"></font>
+    </td>
+</tr>
+
+<!--PROFILE PICTURE-->
+<tr align="center">
+    <td width="25%">
+        <font size="4"></font>
+    </td>
+    <td width="19%" align="left">
+        <font size="5" face="arial narrow" color="darkgrey">PROFILE PICTURE:</font>
+    </td>
+    <td width="22%" align="left">
+        <img src="../images/nav_bar/profile_pic_madeby_Georgina_Shirazi" width = "100">
+    </td>
+    <td width="10%" align="left">
+        <a href="./sp_pi_change_phone_number.html">
+            <font size="4" face="arial narrow" color="teal">Change</font>
+        </a>
+    </td>
+    <td width="10%" align="left">
+        <br>
+    </td>
+    <td width="14%">
+        <font size="4"></font>
+    </td>
+</tr>
+
+
+
+
+Change field
+
+<td width="22%" align="left" >
+<input type="text" name="new_username">
+</td>
+
+<td width="10%" align="left">
+<input type="submit" value="Save" name="saved_username">
+</td>
+
+<td width="10%" align="left">
+<input type="submit" value="Cancel" name="cancel_change">
+</td>
+
+<td width="14%">
+<!--empty-->
+<font size="4"></font>
+</td>
+
+
+
+
+-------------------
+<!--System Prefs sidebar-->
+            <td width="20%">
+                <table height="750" border="2" rules="cols" cellpadding="10" bordercolor="lightgrey">
+
+                    <!--System Prefs sidebar title-->
+                    <tr align="center" width="100%">
+                        <!--"Headers"-->
+                        <td>
+                            <font color="Grey" size="5" face="Fantasy" align="top">SYSTEM PREFERENCES</font>
+                        </td>
+                    </tr>
+
+                    <!--System Prefs sidebar contents-->
+                    <tr>
+                        <td>
+                            <table width="100%" cellpadding="8">
+                                <tr>
+                                    <td width="20%"></td> <!--spacer element-->
+                                    <td width="80%">
+                                        <a href="">
+                                            <font size="4" face="arial narrow" color="grey">PURCHASES</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"></td> <!--spacer element-->
+                                    <td>
+                                        <a href="">
+                                            <font size="4" face="arial narrow" color="grey">PAYMENT METHODS</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"></td> <!--spacer element-->
+                                    <td>
+                                        <a href="">
+                                            <font size="4" face="arial narrow" color="grey">PREFERENCES</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20%"></td> <!--spacer element-->
+                                    <td>
+                                        <a href="">
+                                            <font size="4" face="arial narrow" color="teal">PERSONAL INFORMATION</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--Spacer element-->
+                    <tr> <td width="20%"> </td> </tr>
+                </table>
+            </td>

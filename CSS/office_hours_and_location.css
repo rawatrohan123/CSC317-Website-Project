@@ -1,0 +1,20 @@
+.googlemap{
+    width:100%;
+    border:auto;
+}
+div.mapborder{
+    max-width: 700px;
+    
+}
+th.About{
+      font-family: Helvetica;
+      font-size: x-large;
+      color:teal;
+      font-weight:bold;
+      text-align: center;
+      vertical-align: center;
+}
+table.bordercol{
+    border-color:grey;
+    border: grey;
+}

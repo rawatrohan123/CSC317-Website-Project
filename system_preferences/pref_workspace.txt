@@ -1,0 +1,129 @@
+<table cellpadding="8" height="400">
+
+
+                                    <tr>
+                                        <td width="10%"></td>
+                                        <td width="30%" align="center">
+                                            <br>
+                                            <font size="6" face="arial narrow" color="grey">Game Genres</font><br><br>
+                                            <font size="5" face="arial narrow" color="grey">Select all categories of
+                                                interest:</font><br><br>
+                                            <table width="100%">
+                                                <tr>
+                                                    <td width="10%"></td>
+                                                    <td width="80%" align="left">
+                                                        <input type="checkbox" name="games" id="games_action">
+                                                        <label for="games_action">
+                                                            <font size="5" face="arial narrow" color="teal">Action
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_adventure">
+                                                        <label for="games_adventure">
+                                                            <font size="5" face="arial narrow" color="teal">Adventure
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_indie">
+                                                        <label for="games_indie">
+                                                            <font size="5" face="arial narrow" color="teal">Indie</font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_mmo">
+                                                        <label for="games_mmo">
+                                                            <font size="5" face="arial narrow" color="teal">Massively
+                                                                Multiplayer</font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_racing">
+                                                        <label for="games_racing">
+                                                            <font size="5" face="arial narrow" color="teal">Racing
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_rpg">
+                                                        <label for="games_rpg">
+                                                            <font size="5" face="arial narrow" color="teal">RPG</font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_sim">
+                                                        <label for="games_sim">
+                                                            <font size="5" face="arial narrow" color="teal">Simulation
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_sports">
+                                                        <label for="games_sports">
+                                                            <font size="5" face="arial narrow" color="teal">Sports
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_strategy">
+                                                        <label for="games_strategy">
+                                                            <font size="5" face="arial narrow" color="teal">Strategy
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="checkbox" name="games" id="games_board">
+                                                        <label for="games_board">
+                                                            <font size="5" face="arial narrow" color="teal">Board Games
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        
+                                                    </td>
+                                                    <td width="10%"></td>
+                                                </tr>
+
+
+                                            </table>
+                                        </td>
+                                        <td width="20%"></td>
+                                        <td width="30%" align="center">
+                                            <br>
+                                            <font size="6" face="arial narrow" color="grey">Notifications</font><br><br>
+                                            <font size="5" face="arial narrow" color="grey">I would like to receive
+                                                notifications:</font><br><br>
+                                            <table width="100%">
+                                                <tr>
+                                                    <td width="10%"></td>
+                                                    <td width="80%" align="left">
+                                                        <input type="radio" name="notifications" id="notifications_daily_special">
+                                                        <label for="notifications_daily_special">
+                                                            <font size="5" face="arial narrow" color="teal">Daily & special updates</font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="radio" name="notifications" id="notifications_daily">
+                                                        <label for="notifications_daily">
+                                                            <font size="5" face="arial narrow" color="teal">Daily updates
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="radio" name="notifications" id="notifications_weekly">
+                                                        <label for="notifications_weekly">
+                                                            <font size="5" face="arial narrow" color="teal">Weekly updates
+                                                            </font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="radio" name="notifications" id="notifications_personal">
+                                                        <label for="notifications_personal">
+                                                            <font size="5" face="arial narrow" color="teal">When personalized</font>
+                                                        </label>
+                                                        <br><br>
+                                                        <input type="radio" name="notifications" id="notifications_never">
+                                                        <label for="notifications_never">
+                                                            <font size="5" face="arial narrow" color="teal">Never</font>
+                                                        </label>
+                                                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                                    </td>
+                                                    <td width="10%"></td>
+                                                </tr>
+                                            </table>
+                                            <br><br><br>
+                                        </td>
+                                        <td width="10%"></td>
+                                    </tr>
+
+
+
+                                </table>

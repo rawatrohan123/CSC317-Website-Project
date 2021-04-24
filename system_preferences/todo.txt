@@ -1,0 +1,1 @@
+fix heights of sidebar and inner window (after adding in all the inner windows)

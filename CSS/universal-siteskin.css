@@ -1,0 +1,232 @@
+/*======================================Re-used Fonts======================================*/
+
+/*Title of the page*/
+.font-title {
+    color: grey;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif, Fantasy, Arial
+}
+
+
+
+
+
+
+
+/*======================================Stylized Searchbox======================================*/
+.searchbox-stylized {
+    height: 30px;
+    font-family: arial;
+
+    transition: background-color 500ms linear;
+    background-color:white;
+
+    border-radius: 5px;
+    border-style:solid;
+    
+    font-size: 20px;
+}
+
+.searchbox-stylized:hover{
+    transition: background-color 500ms linear;
+    background-color:rgb(161, 236, 236);
+}
+
+.searchbox-stylized:active{
+    transition: background-color 500ms linear;
+    background-color:rgb(161, 236, 236);
+}
+
+
+
+
+
+/*======================================Side navbar======================================*/
+.side-navbar {
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 0 2px 2px grey;
+    
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        
+        rgb(1, 139, 139),
+        rgb(13, 168, 168) 15%,
+      
+        rgb(1, 139, 139) 30%
+        
+      );;
+
+    color: white;
+}
+
+.font-navbar {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif, Fantasy, Arial;
+    text-shadow: 0 0 3px cyan;
+    padding: 10px;
+}
+
+.font-navbar-contents {
+    font-size: 25px;
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed;
+    background-color: white;
+    color:teal;
+
+    box-shadow: 0 0 2px 2px grey;
+   
+    padding: 10px;
+    padding-left: 15px;
+
+    transition: background-color 500ms linear;
+}
+
+.font-navbar-contents:hover {
+    transition: background-color 500ms linear;
+    background-color:rgb(161, 236, 236);
+}
+
+.font-navbar-contents-nohover {
+    font-size: 22px;
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed;
+    
+    background-color: white;
+    color:teal;
+
+    box-shadow: 0 0 2px 2px grey;
+   
+    padding: 10px;
+    padding-left: 15px;
+
+}
+
+.navbar-content-padding {
+    padding:5px
+}
+
+/*2nd type of navbar content*/
+.font-navbar-contents-2 {
+    font-size: 20px;
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed;
+    color:grey;
+    background-color: white;
+
+    box-shadow: 0 0 2px 2px grey;
+   
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+
+
+/*======================================Links======================================*/
+
+/*Gets rid of annoying underline for links*/
+.links_no_underline a{
+    text-decoration: none
+}
+
+
+
+/*======================================Spacing======================================*/
+
+/*Distance between content for headers and footers (use an empty div, place before/after content)*/
+.header-from-content {
+    height: 25px
+}
+
+
+.footer-from-content {
+    height: 40px
+}
+
+
+/*======================================IN ALPHA STAGE STUFF======================================*/
+
+/*Alpha stage stylized textbox*/
+.textfield-stylized-teal {
+    background-color:rgb(111, 224, 224);
+    transition: background-color 300ms linear;
+    border-radius: 5px;
+    border:2px solid rgb(37, 187, 187);
+
+    height: 20px;
+    
+}
+
+.textfield-stylized-teal:hover {
+    background-color:rgb(123, 255, 255);
+    transition: background-color 300ms linear;
+    
+}
+
+
+/*Alpha stylized checkbox*/
+.checkbox-style > input[type=checkbox]{
+    position:relative;
+    bottom:4px;
+    left:-1px;
+    scale: 2;
+    visibility: hidden
+}
+
+.checkbox-style > input[type=checkbox]:checked{
+    visibility:visible
+}
+
+.checkbox-style {
+    border:2px solid teal;
+    border-radius: 2px;
+    position:relative;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    bottom:-2px;
+}
+
+.checkbox-style-overlay {
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+
+
+    
+    transition: background-color 300ms linear;
+    background-color:rgb(111, 224, 224);
+}
+
+
+.checkbox-style-overlay:hover {
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+
+    
+    
+    transition: background-color 300ms linear;
+    background-color:rgb(123, 255, 255);
+}
+
+
+
+
+/*UNUSED (may come in handy later)*/
+
+/*
+.side-navbar-neon {
+    border-color: rgb(157, 255, 255);
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0 0 2px 2px cyan, inset 0 0 2px 2px cyan
+}
+*/

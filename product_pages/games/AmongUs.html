@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  
+
+<title class="class_title_html_page"></title>
+
+
+<link rel="stylesheet" href="./../../CSS/header_footer_styles.css" type="text/css">
+<link rel="stylesheet" href="./../../CSS/product_page.css" type="text/css">
+<link rel="stylesheet" href="./../../CSS/universal-siteskin.css" type="text/css">
+
+<script src="../../JS/product_page_info.js"></script> 
+<script src="../../JS/product_page.js"></script> 
+
+
+<meta charset="UTF-8">
+
+  
+<div id="#tag-window-outer" class="tag-window-outer">
+  <div>
+    <div id="#tag-window-overlay" class="tag-window-overlay" onclick="exitDialogue();"> </div>
+    <div>
+
+      
+      <div id="#tag-window" class="tag-window box-shadow tag-window-outer-2" align="center">
+
+        <div class="tag-window-title" align="center">
+          <span class="font-tag-window-title-base">
+            Tags associated with
+          </span>
+          <span class="font-tag-window-title-base font-tag-window-title class_title">
+            game title goes here
+          </span>
+        </div>
+
+
+
+        <div class="tag-window-inner-container" align="center" id="#tag-window-inner">
+          Insert tags here
+        </div>
+
+        <div class="font-tag-window-scrollbar-title-common font-tag-window-scrollbar-title" style="text-align: center; width: 100%; display:block">
+          Tags are defined by users.
+        </div>
+
+        <div style="margin: 5px;">
+          <div class="font-tag-window-scrollbar-title-common font-tag-window-scrollbar-title2 " style="text-align: left;">
+            <div style="width: 250px">Tag</div>
+            <div># times tagged</div>
+          </div>
+          <div class="scrollbar-tags" id="#tag-numbers">
+            Insert tag stats here
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
+
+
+
+<article >
+
+ 
+  
+  <div style="display: flex;" align="center">
+    <div style="width: 15%;"></div>
+    <div >
+      <div class="ppage-inner" align="center">
+
+
+        <div class="ppage-content-left">
+
+          <div class="ppage-content-left-bwindow box-shadow" id="#big_window">
+            
+          </div>
+
+          <div class="ppage-content-left-slidebar box-shadow" id="#slidebar-container">
+
+            <!--populated with JS-->
+
+
+
+
+          </div>
+
+          <div class="ppage-content-left-purchase box-shadow" style="display:flex;">
+
+            <div style="width: 57%; height:40px; padding: 25px 15px 25px 25px;" align="right" id="#title-price-container">
+              
+              <span>BUY</span>
+
+              <span class = "ppage-content-left-purchase-alt class_title"></span>
+
+              <span>FOR</span>
+
+              <span class = "ppage-content-left-purchase-alt class_price" id="#price_title"> </span>
+
+
+            </div>
+
+
+            <div style="position:relative; top: 60px; right: -80px; height: 100%;" id="#container-price-buy-button">
+              
+              
+              <div class="product-page-buy-button-outer" id="#sale-purchase">
+
+                
+              
+                <div style="position:relative;" id="#orig-price-and-sale">
+
+                  <span class="class_price" id="#buy-price-orig">
+                    
+                  </span>
+
+                  <span class="class_saleprice" id="#buy-price-sale" style="font-size: 23px;">
+                    
+                  </span>    
+                </div>
+              
+
+                
+
+
+                <div style="margin-left: 10px;">
+                  <form action="../../ShoppingCart.html" method="POST">
+                    <input type="submit" class="add-to-cart-button" style="position: relative;" value="ADD TO CART">
+                  </form>
+                </div>
+
+              </div>
+            </div>
+
+            
+
+
+
+            
+          </div>
+
+        </div>
+
+        <div class="ppage-content-right">
+          <div class="ppage-content-right-image box-shadow class_game_image_main">
+
+            <img src="../../images/product/DirtRally.jpg" width="392">
+
+          </div>
+
+
+
+          <div class="ppage-content-right-descr">
+
+            <div class="description class_description">
+              
+            </div>
+
+            <div class="categories-outer">
+              <div style="display: flex;">
+                <div class="categories"> RECENT REVIEWS: </div>
+                <div class="categories-content class_recent_reviews">  </div>
+                <div class="categories categories-numbers class_recent_reviews_numbers">  </div>
+              </div>
+
+              <div style="display: flex;">
+                <div class="categories"> ALL REVIEWS: </div>
+                <div class="categories-content class_all_reviews"> </div>
+                <div class="categories categories-numbers class_all_reviews_numbers">  </div>
+              </div>
+
+              <div style="display: flex;">
+                <div class="categories"> RELEASE DATE: </div>
+                <div class="categories-content class_release_date"> </div>
+              </div>
+
+              <div style="display: flex;">
+                <div class="categories"> DEVELOPER: </div>
+                <div class="categories-content class_developer">  </div>
+              </div>
+
+              <div style="display: flex;">
+                <div class="categories"> PUBLISHER: </div>
+                <div class="categories-content class_publisher">  </div>
+              </div>
+            </div>
+
+            
+
+            <font color="Grey" size="3" face="arial narrow" align="top">Popular user-defined tags of this
+              product:</font>
+
+
+
+
+          </div>
+
+          <div class="product-tags-container" id="#tags_id" style="display:flex; flex-wrap: wrap;">
+
+            
+
+
+          </div>
+        </div>
+
+
+        
+
+      </div>
+    </div>
+    <div style="width: 15%;"></div>
+  </div>
+  
+  
+  
+  <body onload="loadProductPageStuff();"></body>
+
+  
+</article>
+
+
+
+
+
+
+
+
+</html>
+

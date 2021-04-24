@@ -1,0 +1,33 @@
+  td.head{
+      font-family: Helvetica;
+      font-size: x-large;
+      color:grey;
+      font-weight:bold;
+      text-align: center;
+      vertical-align: center;
+  }
+
+
+  td.orders{
+    font-family: Helvetica;
+    font-size: large;
+    color:teal;
+    width:15%;
+    text-align: center;
+    vertical-align: center;
+    
+  }
+ td.orders:hover{
+    background-color:#dfdbdb;
+ }
+  
+
+  button.OrderButton {
+      background-color: teal;
+      padding: 5px 16px;
+      color: white;
+  }
+  img {
+    width: 75%;
+    height: auto;
+  }

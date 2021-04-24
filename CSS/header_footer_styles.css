@@ -1,0 +1,142 @@
+
+
+
+
+/*----------Header----------*/
+
+/*Gets rid of annoying underline for links*/
+.links_no_underline a{
+    text-decoration: none
+}
+
+/*All links when hovered*/
+.link-hover a:hover {
+    transition: color 500ms linear;
+    color: purple;    /*color refers to --font-- color*/
+}
+
+
+/*The title, Acrux Games*/
+.header-title a {
+    transition: color 500ms linear;
+    color: grey;    
+    font-size: 300%; 
+    font-family:Helvetica
+}
+
+
+/*For the page sublinks (Games, Retro Finds, Sale)*/
+.header-links-pages a {
+    transition: color 500ms linear;
+    color: teal;    
+    font-size: 100%; 
+    font-family: fantasy
+}
+
+
+/*For the language and region/continent*/
+.header-lang-reg a {
+    transition: color 500ms linear;
+    color: black;
+    font-size: 100%; 
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed
+
+}
+
+
+/*----------Footer----------*/
+
+/*For the bottom text and sets default text (CALL US...)*/
+.footer-contents {
+    color:black;
+    font-size: 18px; 
+    font-family: "Arial Narrow", Arial;
+    font-stretch: condensed
+}
+
+/*For the phone number and email*/
+.footer-contents-special {
+    color:blue;
+    font-family: "Arial"
+}
+
+/*Default link color for footers*/
+.footer-links a {
+    color: teal
+}
+
+
+
+
+.header-container-outer {
+    display: flex;
+    flex-flow: row;
+}
+
+
+.social-media-links {
+    transition: filter 200ms linear;
+    filter: hue-rotate(0deg) brightness(100%)
+}
+
+.social-media-links:hover {
+    transition: filter 200ms linear;
+    filter: hue-rotate(10deg) brightness(125%)
+}
+
+.footer-container {
+    display:flex;
+    flex-direction: column;
+    height: 286px;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+
+    border-left:solid rgb(180, 180, 180) 1px;
+    border-right:solid rgb(180, 180, 180) 1px;
+    border-top:solid rgb(180, 180, 180) 2px;
+    border-bottom:solid rgb(180, 180, 180) 2px;
+
+    border-color: rgb(180, 180, 180);
+    background-color:  none;
+}
+
+.footer-container:nth-child(1) {
+    border-left:solid rgb(180, 180, 180) 2px;
+}
+
+.footer-container:last-child {
+    border-right: solid rgb(180, 180, 180) 2px;
+}
+
+.footer-title {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    color: grey;
+    font-size: 25px;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+
+.footer-padding {
+    padding-top: 10px; 
+    padding-bottom: 10px
+}
+
+.footer-sm-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9.7px; 
+    padding-right: 9.7px
+}
+
+.footer-sm-padding:nth-child(0){
+    padding-left: 19.7px; 
+    padding-right: 9.7px
+}
+
+.footer-sm-padding:last-child{
+    padding-right: 19.7px; 
+    padding-left: 9.7px
+}

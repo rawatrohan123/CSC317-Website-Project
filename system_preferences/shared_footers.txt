@@ -1,0 +1,204 @@
+
+<!--Bottom Menu.-GS -->
+<footer>
+    <table width="100%" border="2" rules = "cols" cellpadding="10">
+        <!--Table of 2 row and 5 columns. Each one contains -->
+  
+        <tr align = "center"  width="100%"> <!--"Headers"-->
+            <td width="20%" >
+                <font color="Grey" size="5" face="Fantasy"> OUR STORE</font>
+            </td>
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> CLIENT SERVICES</font>
+            </td>
+  
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> CONTACT US</font>
+            </td>
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> NEWSLETTER</font>
+            </td>
+            <td width="20%">
+                <font color="Grey" size="5" face="Fantasy"> CONNECT</font>
+            </td>
+        </tr>
+  
+         <!--Table of 2 row and 5 columns. Each one contains -->
+        <tr>
+            <td width = "20%">
+                <table width = "100%" >
+                    
+                    <tr align="center">
+                        <td width = "25%"> </td>
+                        <td width = "50%" >
+                            <table cellpadding="8">
+                                <tr>
+                                    <td>
+                                        <a href="../companyinfo.html"><font size ="4" face="arial narrow" color= "teal">ABOUT US</font></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""> <font size = "3" face="arial narrow" color= "teal">LOCATIONS & HOURS</font> </a>
+                                    </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "25%"> </td>
+                    </tr>
+                </table>
+            </td>
+  
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr align="center">
+                        <td width = "19%"> </td>
+                        <td width = "62%">
+                            <table cellpadding="8">
+                                <tr >
+                                    <td>
+                                        <a href="../FAQ.html"> <font size = "3" face="arial narrow" color= "teal">FAQ</font> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""> <font size = "3" face="arial narrow" color= "teal">RETURNS</font> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""> <font size = "3" face="arial narrow" color= "teal">SHIPPING</font> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""> <font size = "3" face="arial narrow" color= "teal">PAYMENT</font> </a>
+                                    </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "19%"> </td>
+                    </tr>
+                </table>
+            </td>
+  
+  
+  
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr>
+                        <td align="center">
+                            <table cellpadding="8">
+                                
+                                <tr>
+                                    <td >
+                                        <font size = "3" face="arial narrow">CALL US:</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <font color= "blue" size = "3" face="arial">+1 555 456 789</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <font size = "3" face="arial narrow">MON-SAT 9AM - 9PM</font>
+                                    </td>
+                                </tr>
+  
+                                
+                                <tr>
+                                    <td>
+                                        <font size = "3" face="arial narrow">EMAIL US:</font>
+                                        
+                                    </td>
+                                </tr>
+  
+                                <tr>
+                                    <td>
+                                        
+                                        <font size = "3" color = "blue" face="arial">contact@acruxgames.com </font>
+                                    </td>
+                                </tr>
+                                
+  
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+  
+  
+  
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr>
+                        <td width = "25%"> </td>
+                        <td width = "50%" >
+                            <table cellpadding="8" align = "center">
+                                <tr>
+                                    <td> 
+                                        <a href=""><font size ="3" face="arial narrow" color= "teal">SUBSCRIBE</font></a>
+                                    </td>
+                                   <td> <font size = "3"><br></font> </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "25%"> </td>
+                    </tr>
+                </table>
+            </td>
+  
+            <td width = "20%">
+                <table width = "100%">
+                    
+                    <tr>
+                        <td width = "25%"> </td>
+                        <td width = "50%" >
+                            <table cellpadding="8" align = "center">
+                                <tr>
+                                    <td>
+                                        <a href=""><font size ="3" face="arial narrow" color="teal">TWITTER</font></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""><font size ="3" face="arial narrow" color="teal">SLACK</font></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""><font size ="3" face="arial narrow" color="teal">DISCORD</font></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=""><font size ="3" face="arial narrow" color="teal">INSTAGRAM</font></a>
+                                    </td>
+                                </tr>
+                                <tr><td><font size="3"><br></font></td></tr>
+                            </table>
+                        </td>
+                        <td width = "25%"> </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+  
+    </table>
+  </footer> 
+
